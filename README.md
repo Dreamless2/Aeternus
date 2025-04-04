@@ -1,3 +1,3 @@
 # Aeternus
 
-API CRUD para inserção de dados do scrapper 
+API CRUD para inserção de dados do scrapper no postgresql
