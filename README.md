@@ -1,3 +1,3 @@
 # Aeternus
 
-API CRUD usando laravel[] para inserção de dados do scrapper no postgresql
+API CRUD usando laravel para inserção de dados do scrapper no postgresql
