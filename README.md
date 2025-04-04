@@ -1,3 +1,3 @@
 # Aeternus
 
-API 
+API CRUD para inserção de dados do scrapper 
