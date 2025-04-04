@@ -22,7 +22,11 @@ class FilmesController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            
+            'nome' => 'required',
+            'genero' => 'required',
+            'duracao' => 'required',
+            'sinopse' => 'required',
+            'imagem' => 'required',
         ])
     }
 
