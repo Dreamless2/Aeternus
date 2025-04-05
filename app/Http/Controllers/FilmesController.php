@@ -12,8 +12,8 @@ class FilmesController extends Controller
      */
     public function index()
     {
-        // get first record
-        $filmes = Filmes::first();
+        // get first record order by id
+        $filmes = Filmes::orderBy('id', 'asc')->first();
         return response()->json($filmes);
     }
 
