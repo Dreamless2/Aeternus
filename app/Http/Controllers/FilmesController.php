@@ -12,7 +12,8 @@ class FilmesController extends Controller
      */
     public function index()
     {
-        $filmes = Filmes::all();
+        // get first record
+        $filmes = Filmes::first();
         return response()->json($filmes);
     }
 
@@ -21,7 +22,7 @@ class FilmesController extends Controller
      */
     public function store(Request $request)
     {
-       
+
     }
 
     /**
